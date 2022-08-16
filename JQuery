@@ -1,0 +1,46 @@
+HTML TAG
+
+<script>
+$(document).ready(function() {
+});
+
+</script>
+
+JQUERY  (jQuery library and the Animate.css library) CONFIG BUTTON
+<script>
+  $(document).ready(function() {
+$("button").addClass("animated bounce");
+  });
+</script>
+
+TRAGET ELEMENTS BY CLASS USING JQUERY
+
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake")
+  });
+</script>
+
+TRAGET ELEMENTS BY ID USING JQUERY
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+    $(".well").addClass("animated shake");
+$("#target3").addClass("animated fadeOut");
+  });
+</script>
+
+---Target the Same Element with Multiple jQuery Selectors
+<script>
+  $(document).ready(function() {
+$("#target1").addClass("shake ");
+$(".btn").addClass("animated ");
+$("button").addClass(" btn-primary");
+  });
+</script>
+
+--Remove Classes from an Element with jQuery
+
+$("button").removeClass("btn-default");
+
