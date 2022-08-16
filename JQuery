@@ -44,3 +44,6 @@ $("button").addClass(" btn-primary");
 
 $("button").removeClass("btn-default");
 
+--Change the CSS of an Element Using jQuery
+
+   $("#target1").css("color", "red");
